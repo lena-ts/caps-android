@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "CAPS",
+    "slug": "caps-app",
+    "version": "1.0.2",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.caps.android",
+      "versionCode": 3,
+      "permissions": ["READ_CONTACTS", "RECORD_AUDIO", "READ_PHONE_STATE", "CAMERA"],
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-3485393765261217~5865486809"
+      },
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
